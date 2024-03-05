@@ -1,0 +1,134 @@
+.section__map {
+    display: block;
+    min-height: 725px;
+}
+
+.breadcrumbs {
+    padding-top: 25px;
+}
+
+.breadcrumbs__list {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs__item {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+ 
+
+.breadcrumbs__item:after{
+    margin-left: 5px;
+    content: ">";
+    color: #9A9A9A;
+}
+
+.breadcrumbs__item:last-child::after{
+    display: none;
+}
+
+.breadcrumbs__link {
+    color: rgb(175, 175, 175);
+    font-size: 13px;
+    font-weight: 450;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+    
+}
+
+.breadcrumbs__link-unactive {
+    text-decoration: none;
+}
+
+
+.adress__title {
+    margin-top: 10px;
+    margin-bottom: 22px;
+   
+    color: rgb(20, 20, 20);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.adress {
+    display: flex;
+}
+
+
+.contacts__adress {
+    display: flex;
+    flex-direction: column;
+    margin-right: 68px;
+}
+
+ 
+
+.adress__item {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 1px solid rgb(226, 226, 226);
+}
+
+.adress__item-noborder {
+    border-top: none;
+}   
+
+
+.adress__item-name {
+    margin-right: 5px;
+    color: rgb(20, 20, 20);
+    font-size: 16px;
+    font-weight: 750;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 188px;
+}
+
+.adress__item-info {
+    color: rgb(87, 87, 87);
+    font-size: 16px;
+    font-weight: 750;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.adress__item-info-dep{
+    display: block;
+    width: 45%;
+}
+
+.adress__item-link{
+    color: rgb(72, 91, 250);
+    font-size: 16px;
+    font-weight: 750;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.contacts__right-col {
+    display: flex;
+}
+
+.adress__photo {
+    width: 210px;
+    height: 220px;
+    margin-right: 10px;
+}
+
+.map {
+    width: 1179px;
+    height: 260px;
+}

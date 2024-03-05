@@ -1,0 +1,223 @@
+.header__container {
+    width: 1200px;
+}
+
+.prewiev_container {
+    padding: 40px;
+}
+
+.header {
+    margin-top: 26px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    display: flex;
+   align-items: center;
+}
+
+.header__logo-title {
+    margin-left: 14px;
+}
+
+.header__adress {
+    margin-left: 127px;
+    width: 193px;
+    height: 36px;
+}
+
+.adress_city-text {
+    color: rgb(87, 87, 87);
+    font-size: 13px;
+    font-weight: 450;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.header__contacts {
+    width: 285px;
+    height: 40px;
+    margin-left: 79px;
+}
+
+
+.header__contacts-text {
+    margin: 0;
+    width: 280px;
+}
+
+.header__os {
+    width: 144px;
+    height: 39px;
+    margin-left: 76px;
+    margin-right: 49px;
+}
+
+.header__phone {
+    color: rgb(20, 20, 20);
+    font-size: 16px;
+    font-weight: 750;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left; 
+}
+
+.header__feedback-link {
+    color: rgb(72, 91, 250);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+.header__submenu {
+    display: flex;
+    margin-top: 40px;
+}
+
+ 
+.header__menu-elem {
+    margin-right: 44px;
+}
+
+.header__menu-elem:last-child {
+    margin-right: none;
+}
+
+.header__menu-btn {
+    background-color: transparent; 
+    border-color: transparent;
+    cursor: pointer;
+    height: 50px;
+}
+
+.header__menu-btn:hover{
+    transition: 1.2s ease;
+    border-top: 4px;
+    border-right: 4px;
+    border-left: 4px;
+    border-color: rgb(120, 19, 235);
+}
+
+.plus {
+    position: relative;
+}
+
+.plus1 {
+    border: 2px solid white;
+    width: 15px;
+    transform: rotate(90deg);
+    position: absolute;
+    top: -9px;
+    left: 15px;
+}
+
+.plus2 {
+    border: 2px solid white;
+    width: 15px;
+    position: absolute;
+    top: -9px;
+    left: 15px;
+}
+
+.header__menu-btn-calculation {
+    width: 245px;
+    height: 50px;
+    left: 1351.02px;
+    right: -1351.02px;
+    top: 86px;
+    bottom: -86px;
+    border-radius: 3px;
+    background: rgb(72, 91, 250);
+    cursor: pointer;
+    color: white;
+}
+
+.header__menu-btn-calculation:hover {
+    background: rgb(99, 110, 206);
+}
+
+.prewiev_container {
+    display: flex;
+    margin-top: 28px;
+}
+
+.prewiev_banner {
+    position: relative;
+ }
+
+.prewev__img1 {
+    position: absolute;
+    top: 64px;
+    left: -54px;
+}
+
+.prewev__img2 {
+    position: absolute;
+    top: 52px;
+    left: 71px;
+}
+
+.prewev__img3 {
+    position: absolute;
+    top: 78px;
+    left: 158px;
+}
+
+.prewiev_section-right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50%;
+    width: 40%;
+}
+
+.prewiev_title {
+    color: rgb(20, 20, 20);
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 2%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.prewiev_desc {
+    color: rgb(20, 20, 20);
+    font-size: 15px;
+    font-weight: 450;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+.prewiev_btn {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    width: 198px;
+    height: 50px;
+    border-radius: 3px;
+    background: rgb(255, 172, 95);
+    cursor: pointer;
+    color: rgb(20, 20, 20);
+    font-size: 16px;
+    font-weight: 750;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+.prewiev_btn:hover {
+    background: rgb(216, 124, 3);
+} 

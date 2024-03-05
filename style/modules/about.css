@@ -1,0 +1,137 @@
+.section_about {
+    background-color: white;
+}
+
+.container__about {
+    display: flex;
+    margin-bottom: 167px;
+}
+
+.about__leftside {
+    margin-right: 67px;
+    position: relative;
+}
+
+
+.about_cube-big {
+    width: 201.38px;
+    height: 201.38px;
+    background: rgb(72, 91, 250);
+    color: white;
+    position: absolute;
+    left: 145px;
+    top: 365px;
+    transform: rotate(44.61deg);    
+}
+
+.about_cube-big-title {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 120%;
+    transform: rotate(315.61deg);  
+    position: relative; 
+}
+
+.about_cube-big-desc {
+    font-size: 16px;
+    font-weight: 750;
+    line-height: 140%;
+    transform: rotate(315.61deg);   
+    position: absolute;
+    left: 40px;
+    top: 54px;
+}
+
+.about_cube-medium {
+    width: 47.31px;
+    height: 47.31px;
+    background: rgb(72, 91, 250);
+    position: absolute;
+    left: 75px;
+    top: 401px;
+    transform: rotate(315.61deg);   
+}
+
+
+.about_cube-small {
+    background: rgb(72, 91, 250);
+    position: absolute;
+    left: 333px;
+    top: 521px;
+    width: 33.36px;
+    height: 33.36px;  
+    transform: rotate(315.61deg);     
+}
+
+.about__rightside {
+    display: flex;
+    flex-direction: column;
+}
+
+.about__title{
+    width: 600px;
+    justify-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 140%;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.about__title-link{
+    margin-right: 35px;
+    margin-left: 10px;
+    color: rgb(72, 91, 250);
+    position: relative;
+}
+    
+.about__title-img {
+    position: absolute;
+    left: 264px;
+    top: 19px;
+}
+
+.about__desc {
+    width: 586px;
+    height: 105px;
+    left: 954px;
+
+    color: rgb(87, 87, 87);
+    font-size: 15px;
+    font-weight: 450;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.about__desc-customers {
+    color: rgb(20, 20, 20);
+    font-size: 16px;
+    font-weight: 750;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+
+    border-top: 1px solid rgb(226, 226, 226);;
+    padding-top: 40px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid rgb(226, 226, 226);;
+    padding-bottom: 35px;
+}
+
+.about-customers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 440px;
+    align-items: center;
+}
+
+
+.customers-card-img {
+    margin-bottom: 30px;
+    margin-right: 39px;
+}
