@@ -12,7 +12,7 @@
 }
 
 .requisites__title {
-    margin-right: 435px;
+    margin-right: 425px;
 
     color: rgb(20, 20, 20);
     font-size: 16px;
@@ -36,7 +36,7 @@
 
 .requisites__link-img {
     position: absolute;
-    left: 232px;
+    left: 240px;
     top: 0;
 }
 
@@ -57,11 +57,17 @@
 
 .requisites_info-item {
     display: flex;
+    border-top: 1px solid rgb(226, 226, 226);
+}
+
+.requisites_info-item-noborder {
+    border-top:none;
 }
 
 .requisites_info-name {
+    padding-top: 10px;
     margin-right: 10px;
-
+    width: 188px;
     color: rgb(20, 20, 20);
     font-size: 15px;
     font-weight: 450;
@@ -78,4 +84,5 @@
     line-height: 140%;
     letter-spacing: 0%;
     text-align: right;
+    padding-top: 10px;
 }
